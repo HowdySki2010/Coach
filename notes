@@ -1,0 +1,21 @@
+What do I want this to do?
+
+For a build
+1. Build a plan:
+    1. Start with a weekly TSS.
+    2. Build out an optimal week from that TSS
+    3. Build out intensity workouts in those weeks.
+2. Adapt the plan
+    1. If a workout is missed, rearrange the weekly TSS distribution
+    2. If too much is missed, drop the weekly TSS and rearrange the week
+    3. If you have to drop the weekly TSS, then you re-do the upcoming weekly TSS progression
+    4. If you miss a key workout, you refactor the week in one way
+    5. If you miss a regular workout, you refactor the week in a different way.
+3. Also adapt the plan based on some kind of form inputs.
+    1. Optimally, I fill out out this form during the initial athlete interview,
+    2. The values then become the assumptions for the new plan build structure.
+        1. For example, the day off, or the long day. I should be able to input their day off in the form, and then have
+            it change which day is the "0 tss" day in their week.
+        2. Each of these values should be set to a standard value, and then it stays at whatever I set it to.
+            So then when I enter a new form value for only one of the paramters, it doesn't set all the old one's back
+            to standard, but instead leaves' the person's current default, except for the value(s) that I just changed.
